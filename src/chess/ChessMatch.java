@@ -56,8 +56,6 @@ public class ChessMatch {
         placeNewPiece('e', 2, new Rook(board, Color.white));
         placeNewPiece('e', 1, new Rook(board, Color.white));
         placeNewPiece('d', 1, new King(board, Color.white));
-<<<<<<< HEAD
-=======
 
         placeNewPiece('c', 7, new Rook(board, Color.black));
         placeNewPiece('c', 8, new Rook(board, Color.black));
@@ -65,14 +63,7 @@ public class ChessMatch {
         placeNewPiece('e', 7, new Rook(board, Color.black));
         placeNewPiece('e', 8, new Rook(board, Color.black));
         placeNewPiece('d', 8, new King(board, Color.black));
-	}
->>>>>>> 8e0f1fdb61b7d3f343ca284ebddd289909cc425e
 
-        placeNewPiece('c', 7, new Rook(board, Color.black));
-        placeNewPiece('c', 8, new Rook(board, Color.black));
-        placeNewPiece('d', 7, new Rook(board, Color.black));
-        placeNewPiece('e', 7, new Rook(board, Color.black));
-        placeNewPiece('e', 8, new Rook(board, Color.black));
-        placeNewPiece('d', 8, new King(board, Color.black));
+
 	}
 }
