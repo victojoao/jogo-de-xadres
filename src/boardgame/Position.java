@@ -24,6 +24,9 @@ public class Position {
 		return row +", " +colunm;
 	}
 	
-		
+	public void setValues(int row, int column) {
+		this.row =row;
+		this.colunm = column;
+	}
 	}
 
